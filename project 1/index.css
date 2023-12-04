@@ -1,0 +1,464 @@
+/* /* body */
+body {
+    background-color: rgb(57, 57, 57);
+    margin: 0px;
+}
+
+/* navigation bar */
+  #navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(57, 57, 57);
+    justify-content: space-between;
+    
+    height: 80px;
+    width: 100%;
+}
+#part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    display: flex;
+    background-color: white;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 291px;
+}
+#select,#input,#searchopotion{
+    padding: 0;
+    height: 30px;
+    border-width: 2px;
+}
+#select{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#searchoption p{
+    margin-left: 7px;
+    margin-right: 6px;
+    font-size: 12px;
+}
+#searchoption p a{
+    text-decoration: none;
+    color: black;
+    height: 30px;
+}
+#input{
+    height: 27px;
+
+}
+#navbar #items ul {
+    display: flex
+    
+}
+
+#logo {
+    height: 62.5;
+    width: 125;
+
+}
+
+.items {
+    text-align: center;
+    
+}
+
+#navbar ul li {
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 3px 22px;
+    border-radius: 20px;
+    
+}
+
+#navbar ul li a:hover {
+    color: rgb(83, 83, 83);
+    background-color: white;
+}
+
+/*       Home               */
+  #home {
+    /* background image */
+    background: url("resturent.jpeg");
+    background-size: cover;
+    background-attachment: inherit;
+    height: 550px;
+    justify-content: center;
+    background-position: 50%;
+    width: 100%;
+    margin-bottom: 80px;
+    /* content in it */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#home #style {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.25;
+    position: absolute;
+}
+
+#home h1 {
+    color: white;
+    font-size: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
+    margin-bottom: 12px;
+
+}
+
+#home p {
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 100;
+}
+
+#home #login {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: black;
+    z-index: 100;
+    height: 22px;
+    width: 60px;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-family: 'Mukta', sans-serif;
+}
+#home #login a{
+    color: black;
+    text-decoration: none;
+}
+
+/*    About        */
+#about {
+    width: 100%;
+    height: 583px;
+    margin-top: 150px;
+    margin-bottom: 113px;
+}
+
+#about #info {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 820px;
+    margin-left: 90px;
+}
+#about #info h2{
+    font-size: 60px;
+    margin-left: 90px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+#about #info p{
+    font-size: 17px;
+    width: 620px;
+    margin-left: 90px;
+    line-height: 1.8;
+    margin-top: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 38px;
+}
+
+#about #img{
+    background-image: url(img.lpg.webp);
+    background-position: 100% center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-attachment: inherit;
+    height: 500px;
+    width: 515px;
+    top: 825px;
+    right: 177px;
+}
+/* services */
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#services h3{
+    color: white;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#services .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin-bottom: 30px;
+    
+}
+#services .content .sevrice{
+    width: 340px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#r,#t{
+    margin-left: 20px;
+}
+#s,#u{
+    margin-right: 20px;
+}
+#services .content .sevrice #a{
+    background-image: url(service1.png);
+    height: 200px;
+}
+#services .content .sevrice #b{
+    background-image: url(service2.png);
+    height: 200px;
+}
+#services .content .sevrice #c{
+    background-image: url(service3.png);
+    height: 200px;
+}
+#services .content p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#services .content .sevrice .heading{
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+#services .content .sevrice .ordernow{
+    background-color: white;
+    width: 100px;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    height: 20px;
+}
+#services .content .sevrice .ordernow a{
+    color: black;
+    text-decoration: none;
+}
+/* contact us */
+#contactinfo{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    height:350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#contactinfo #adress{
+    margin-left: 90px;
+    margin-top: 45px;
+}
+#contactinfo #socialmedia{
+    
+    margin-top: 100px;
+}
+#contactinfo #log{
+    margin-right: 90px;
+    margin-top: 130px;
+}
+#contactinfo #adress #d{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+#k,#l,#m{
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+#j,#k,#l,#m{
+    margin-bottom: 0px;
+}
+#h,#j{
+    margin-top: 10px;
+}
+#i{
+    margin: 0;
+}
+#h{
+    margin-bottom: 8px;
+}
+#q{
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    height:30px;
+    width:85px;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+#p{
+    padding-left: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 38px ;
+}
+#o{
+    display: flex;
+
+} 
+@media only screen and (max-width: 1488px)
+{
+
+    #about #img{
+        background-image: url(img.lpg.webp);
+        background-position: 100% center;
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        background-attachment: inherit;
+        height: 503px;
+        margin-block: auto;
+    }
+    #about{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+    #about #info{
+        margin-left: 0;
+    }
+    #about #info p{
+        margin-right: 15px;
+    }
+    #contactinfo #adress{
+        margin-left: 20px;
+    }
+    #contactinfo #log{
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 1090px)
+{
+    #about #img{
+        background-image: none;
+        background-position: 100% center;
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        background-attachment: inherit;
+        height: 0;
+        width:0;
+        margin-block: auto;
+    }
+    #about #info{
+        margin-left: 0;
+        width: 100%;
+    }
+    #about #info h2,#about #info p{
+        margin-left: 170px;
+    }
+    
+}
+@media only screen and (max-width: 1033px)
+{
+    #navbar{
+        height: 168px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #navbar ul li a{
+        padding: 3px 12px;
+    }
+    #part1{
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        width:100%;
+    }
+    
+    #about #info h2,#about #info p{
+        width:100%;
+        margin-left: 10px;
+        padding: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    #contactinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 580px;
+    }
+    #contactinfo #adress,#contactinfo #socialmedia,#contactinfo #log{
+        margin: 0;
+        margin-top: 20px;
+    }
+    #contactinfo #log{
+        margin-left: 66px;
+    }
+
+
+}
+@media only screen and (max-width: 480px)
+{
+    #navbar #part1 #search{
+        width:100px;
+    }
+}
+@media only screen and (max-width: 482px)
+{
+    #part1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #navbar{
+        height: inherit;
+    }
+    #navbar #part1 #search #searchoption p{
+        background-color: white;
+        color: black;
+        border-radius: 2px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    
+    }
+    #navbar #part1 #search #searchoption p a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
